@@ -2,7 +2,6 @@ import React from 'react'
 
 const Product = (props) => {
     const { product } = props;
-    console.log('Products',product)
     const { name, price, category, image } = product;
     const handleClick = () => {
         
