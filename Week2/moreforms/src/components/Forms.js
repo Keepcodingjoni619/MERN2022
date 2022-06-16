@@ -1,5 +1,5 @@
 import React from 'react';
-// import {Form, Button} from 'react-bootstrap';
+import {Form, Button} from 'react-bootstrap';
 
 
 
@@ -17,9 +17,10 @@ const Forms = (props) => {
     const onSubmitHandler = (e) => {
             e.preventDefault();
         }
-    }
+    
 
     return (
+
     <Form onSubmit={onSubmitHandler}>
         <Form.Group className="mb-3" controlId="">
         <Form.Label>First Name</Form.Label>

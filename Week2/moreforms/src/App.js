@@ -22,16 +22,19 @@ function App() {
         lastName = {lastName}
         setLastName={setLastName}
         setEmail={setEmail}
+        setConfirmEmail={setConfirmEmail}
+        setPassword={setPassword}
+
 
       />
-      <Persons 
+      {/* <Persons 
         firstName={firstName} 
         setFirstName={setFirstName}
         lastName={lastName}
         setLastName={setLastName}
         email={setEmail}
         confirmEmail={confirmEmail}
-      />
+      /> */}
     </div>
   );
 }
