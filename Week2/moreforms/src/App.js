@@ -11,7 +11,7 @@ function App() {
   const [firstName, setFirstName] = useState('')
   const [lastName, setLastName] = useState('')
   const [email, setEmail] = useState('')
-  const [confirmEmail, setConfirmEmail] = useState('')
+  const [confirmPassword, setConfirmPassword] = useState('')
   const [password, setPassword] = useState('')
   return (
     <div className="App">
@@ -22,19 +22,10 @@ function App() {
         lastName = {lastName}
         setLastName={setLastName}
         setEmail={setEmail}
-        setConfirmEmail={setConfirmEmail}
+        setConfirmPassword={setConfirmPassword}
         setPassword={setPassword}
-
-
       />
-      {/* <Persons 
-        firstName={firstName} 
-        setFirstName={setFirstName}
-        lastName={lastName}
-        setLastName={setLastName}
-        email={setEmail}
-        confirmEmail={confirmEmail}
-      /> */}
+      
     </div>
   );
 }

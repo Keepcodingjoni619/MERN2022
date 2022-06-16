@@ -5,7 +5,7 @@ const Persons = (props) => {
         firstName, setFirstName, 
         lastName, setLastName,
         email, setEmail,
-        confirmEmail, setConfirmEmail,
+        confirmPassword, setConfirmPassword,
         password, setPassword
     } 
     = props;
@@ -14,7 +14,7 @@ const Persons = (props) => {
         {firstName}
         {lastName}
         {email}
-        {confirmEmail}
+        {confirmPassword}
         {password}
     </div>
   )

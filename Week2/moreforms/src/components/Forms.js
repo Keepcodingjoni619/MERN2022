@@ -8,7 +8,7 @@ const Forms = (props) => {
         firstName, setFirstName, 
         lastName, setLastName,
         email, setEmail,
-        confirmEmail, setConfirmEmail,
+        confirmEmail, setConfirmPassword,
         password, setPassword,
     } 
     = props;
@@ -36,13 +36,13 @@ const Forms = (props) => {
 
 
         <Form.Group className="mb-3" controlId="">
-        <Form.Label>Email address</Form.Label>
+        <Form.Label>Email Address</Form.Label>
         <Form.Control type="email" placeholder="Enter email"  onChange={(e) => setEmail(e.target.value)}/>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="">
-        <Form.Label>Confirm Email address</Form.Label>
-        <Form.Control type="email" placeholder="Confirm email"  onChange={(e) => setConfirmEmail(e.target.value)}/>
+        <Form.Label>Confirm Password Address</Form.Label>
+        <Form.Control type="email" placeholder="Confirm email"  onChange={(e) => setConfirmPassword(e.target.value)}/>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="">
