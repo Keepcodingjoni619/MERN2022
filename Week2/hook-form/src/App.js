@@ -1,10 +1,11 @@
 import './App.css';
-import ProductFrom from './components/ProductForm';
+import React from 'react';
+import SignUpForm from './components/SignUpForm';
 
 function App() {
   return (
     <div className='App'>
-      <ProductForm />
+      <SignUpForm />
     </div>
   )
 }
