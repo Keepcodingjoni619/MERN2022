@@ -1,23 +1,11 @@
+* {
+  margin: 0 auto;
+}
 .App {
-  background: aquamarine;
+  display: block;
+  text-align: center;
+  background-color: aquamarine;
   text-align: center;
   height: 100vh;
 }
 
-.heading {
-  font-size: 2rem;
-}
-
-.btn {
-  background-color: black;
-  color: white;
-  margin-top: 5px;
-  padding: .2rem;
-  border-radius: 5px;
-}
-
-.btn-2 {
-  background-color: blue;
-  color: white;
-  margin: 10px;
-}
